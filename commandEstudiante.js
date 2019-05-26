@@ -18,12 +18,17 @@ let opciones = {
 };
 
 
-let calcularPromedio = (notaMatematica,notaProgramacion,notaLogica, nombreEstudiante) => {
-    console.log('El promedio de ' + nombreEstudiante + es (notaMatematica+notaProgramacion+notaLogica)/3);
+let calcularPromedio = (notaMatematica,notaProgramacion,notaLogica) => {
+    return (notaMatematica+notaProgramacion+notaLogica)/3;
 }
 
+let mostrarMayores3 = (promedio) => {
+    mensaje = promedio > 3 ? 'El promedio es ' + promedio : "";
+    return mensaje;
+}
 
 module.exports = {
-	calcularPromedio,
+    calcularPromedio,
+    mostrarMayores3,
 	opciones
 };
