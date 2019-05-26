@@ -1,0 +1,14 @@
+{
+  "name": "bono2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "principal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Ramirez diegoramirez1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
